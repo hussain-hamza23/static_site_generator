@@ -10,6 +10,6 @@ OUTPUT_PATH = os.path.join(ROOT_DIR, "public")
 DOCS_PATH = os.path.join(ROOT_DIR, "docs")
 
 
-CONTENT_FILE = os.path.join(CONTENT_PATH, "index.md")
+# CONTENT_FILE = os.path.join(CONTENT_PATH, "index.md")
 TEMPLATE_FILE = os.path.join(ROOT_DIR, "template.html")
-OUTPUT_FILE = os.path.join(PUBLIC_DIR, "index.html")
+# OUTPUT_FILE = os.path.join(PUBLIC_DIR, "index.html")
