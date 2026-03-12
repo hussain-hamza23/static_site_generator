@@ -7,6 +7,8 @@ STATIC_DIR = os.path.join(ROOT_DIR, "static")
 
 CONTENT_PATH = os.path.join(ROOT_DIR, "content")
 OUTPUT_PATH = os.path.join(ROOT_DIR, "public")
+DOCS_PATH = os.path.join(ROOT_DIR, "docs")
+
 
 CONTENT_FILE = os.path.join(CONTENT_PATH, "index.md")
 TEMPLATE_FILE = os.path.join(ROOT_DIR, "template.html")
