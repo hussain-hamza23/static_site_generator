@@ -1,4 +1,5 @@
-from src.textnode import TextNode, TextType
+from textnode import TextNode, TextType, text_node_to_html_node
+from htmlnode import HTMLNode
 import re
 
 
@@ -118,3 +119,8 @@ def text_to_textnodes(text: str) -> list[TextNode]:
     split_nodes = split_nodes_link(split_nodes)
 
     return split_nodes
+
+
+def text_to_children(text: str) -> list[HTMLNode]:
+    inline_nodes: list[TextNode] = text_to_textnodes(text)
+    return [text_node_to_html_node(node) for node in inline_nodes]
